@@ -36,5 +36,10 @@ struct BlocklistSource: Identifiable, Codable, Equatable {
             url: "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/pro.txt",
             isEnabled: false
         ),
+        BlocklistSource(
+            name: "NSFW",
+            url: "https://raw.githubusercontent.com/sjhgvr/oisd/main/domainswild2_nsfw.txt",
+            isEnabled: false
+        ),
     ]
 }

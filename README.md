@@ -18,6 +18,11 @@ System DNS → 127.0.0.1 → proxy → blocklist check → 1.1.1.1 (upstream)
 Blocked domains receive an **NXDOMAIN** response.
 Allowing/blocking only changes a flag in the proxy — system DNS stays pointed at `127.0.0.1` throughout.
 
+## Demo images
+![Demo image 1](Images/demo_1.png)
+
+![Demo image 2](Images/demo_2.png)
+
 ## Requirements
 
 - macOS 13 (Ventura) or later

@@ -30,8 +30,11 @@ struct MainView: View {
             .toolbar {
                 ToolbarItem(placement: .primaryAction) {
                     Button { showAbout.toggle() } label: {
-                        Image(systemName: "questionmark.circle")
+                        Text("?")
+                            .font(.system(size: 13, weight: .bold))
                             .foregroundStyle(.secondary)
+                            .frame(width: 24, height: 24)
+                            .background(Circle().fill(Color.secondary.opacity(0.15)))
                     }
                     .buttonStyle(.borderless)
                     .popover(isPresented: $showAbout, arrowEdge: .bottom) {

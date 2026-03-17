@@ -1,0 +1,31 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Xcode — user-specific
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.moved-aside
+DerivedData/
+
+# Xcode — build output
+Build/
+build/
+*.o
+*.d
+*.dia
+
+# Packaging artifacts
+*.zip
+Resources/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Credentials / secrets (never commit these)
+*.p12
+*.mobileprovision
